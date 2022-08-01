@@ -1,0 +1,95 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  background-color: #fafafa;
+}
+nav {
+  transform: all 0.5s;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #ffffff;
+}
+
+#menu {
+  list-style-type: none;
+  display: flex;
+}
+#menu a {
+  color: #1e2329;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  color: #c3a21f;
+}
+
+#anotherPartOfTheMenu {
+  list-style-type: none;
+  display: flex;
+}
+
+#anotherPartOfTheMenu a {
+  color: #1e2329;
+  text-decoration: none;
+  padding: 10px;
+}
+#anotherPartOfTheMenu a:hover {
+  color: #c3a21f;
+}
+
+.logoImage {
+  width: 30px;
+  height: 25px;
+}
+.logo {
+  color: #fcd535;
+  font-size: large;
+  text-transform: uppercase;
+}
+.iconsWithBackgroundColor {
+  background-color: #fcd535;
+  border-radius: 1em;
+}
+.borderLi {
+  border-right: 1px solid #b7bdc6;
+  border-left: 1px solid #b7bdc6;
+  padding: 3px;
+}
+#moonIcon {
+  color: #1e2329;
+}
+.header-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#text {
+  font-size: xx-large;
+}
+#Form {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 44px;
+}
+#submit {
+  background-color: #fcd535;
+  border-color: #fcd535;
+}
+
+#header-image {
+  width: 600px;
+  height: 500px;
+}
+#endHeader {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
