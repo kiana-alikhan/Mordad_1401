@@ -1,58 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US" dir="ltr">
   <head>
-    <title>Binance site</title>
+    <title>Binance UI</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/font-awesome/css/all.min.css" />
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/font-awesome/css/all.min.css" />
     <link rel="stylesheet" href="./assets/css/header.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <ul id="menu">
+      <nav class="fh jcsb navigation-bar">
+        <ul class="fh aic">
           <li>
-            <a href="#"
-              ><img class="logoImage" src="./assets/images/logo.jpg" alt="" />
+            <a href="#" class="fh aic logo">
+              <img
+                src="./assets/images/logo.jpg"
+                alt="Binance Logo"
+                title="Binance Logo"
+              />
+              <strong class="secondary-color">BINANCE</strong>
             </a>
           </li>
           <li>
-            <a href="#"
-              ><span class="logo"> <strong>BINANCE</strong> </span>
+            <a href="#">
+              <i class="fa fa-list"></i>
             </a>
           </li>
-          <li>
-            <a href="#"> <div id="shape"></div> </a>
-          </li>
+          <li><a href="#">Buy Crypto</a></li>
           <li><a href="#">Markets</a></li>
           <li><a href="#">Trade</a></li>
-          <li><a href="#">Drivatives</a></li>
+          <li><a href="#">Derivatives</a></li>
           <li><a href="#">Earn</a></li>
           <li><a href="#">Finance</a></li>
           <li><a href="#">NFT</a></li>
-          <li><a href="#">LogIn</a></li>
         </ul>
-        <ul id="anotherPartOfTheMenu">
+        <ul class="fh aic">
+          <li><a href="#">LogIn</a></li>
           <li>
-            <a href="#">
-              <li><a href="#">LogIn</a></li>
-              <span class="iconsWithBackgroundColor"> Register</span></a
+            <a href="#" class="secondary-background-color yellow-link"
+              >Register</a
             >
           </li>
           <li><a href="#">Downloads</a></li>
           <li><a href="#">English</a></li>
-          <li><a href="#" class="borderLi">USD</a></li>
+          <li><a href="#" class="current-currency">USD</a></li>
           <li>
-            <a href="" id="moonIcon"
-              ><i class="fa fa-moon" aria-hidden="true"></i
-            ></a>
+            <a href=""><i class="fa fa-moon" aria-hidden="true"></i></a>
           </li>
         </ul>
       </nav>
@@ -112,7 +116,5 @@
         </section>
       </div>
     </header>
-    <main></main>
-    <footer></footer>
   </body>
 </html>

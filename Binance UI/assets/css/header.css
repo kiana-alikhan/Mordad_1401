@@ -1,69 +1,148 @@
+/* Global Styles */
+
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-header {
-  background-color: #fafafa;
+
+body {
+  margin: 0;
+  padding: 0;
 }
-nav {
-  transform: all 0.5s;
-  list-style-type: none;
+
+a {
+  text-decoration: none;
+}
+
+/* Flexbox */
+
+.fh {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+}
+
+.fhr {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.fv {
+  display: flex;
+  flex-direction: column;
+}
+
+.fvr {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.jcfs {
+  justify-content: flex-start;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.jcfe {
+  justify-content: flex-end;
+}
+
+.jcsa {
+  justify-content: space-around;
+}
+
+.jcsb {
   justify-content: space-between;
+}
+
+.aifs {
   align-items: flex-start;
+}
+
+.aic {
+  align-items: center;
+}
+
+.aife {
+  align-items: flex-end;
+}
+
+.aibl {
+  align-items: baseline;
+}
+
+.fw {
+  flex-wrap: wrap;
+}
+
+.fw-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+/* Static Styles */
+
+.secondary-color {
+  color: #fcd535;
+}
+
+.secondary-background-color {
+  background-color: #fcd535;
+}
+
+/* Navigation Bar */
+
+.navigation-bar {
   background-color: #ffffff;
+  padding: 8px;
 }
 
-#menu {
+.navigation-bar ul {
   list-style-type: none;
-  display: flex;
+  margin: 0;
+  padding: 0;
 }
-#menu a {
+
+.navigation-bar li {
+  margin: 10px;
+}
+
+.navigation-bar a {
   color: #1e2329;
-  padding: 10px;
-  text-decoration: none;
 }
 
-#menu a:hover {
-  color: #c3a21f;
+.navigation-bar a:hover {
+  color: #fcd535;
 }
 
-#anotherPartOfTheMenu {
-  list-style-type: none;
-  display: flex;
-}
-
-#anotherPartOfTheMenu a {
-  color: #1e2329;
-  text-decoration: none;
-  padding: 10px;
-}
-#anotherPartOfTheMenu a:hover {
-  color: #c3a21f;
-}
-
-.logoImage {
+.logo img {
   width: 30px;
   height: 25px;
 }
-.logo {
-  color: #fcd535;
-  font-size: large;
-  text-transform: uppercase;
+
+.logo strong {
+  margin-left: 5px;
 }
-.iconsWithBackgroundColor {
-  background-color: #fcd535;
-  border-radius: 1em;
+
+.yellow-link {
+  border-radius: 5px;
+  padding: 5px;
 }
-.borderLi {
-  border-right: 1px solid #b7bdc6;
+
+.current-currency {
   border-left: 1px solid #b7bdc6;
-  padding: 3px;
+  border-right: 1px solid #b7bdc6;
+  padding: 0px 5px;
 }
-#moonIcon {
-  color: #1e2329;
+
+header {
+  background-color: #fafafa;
 }
+
+/* End Of Refactor */
+
 .header-container {
   display: flex;
   flex-wrap: nowrap;
